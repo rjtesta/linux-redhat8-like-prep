@@ -9,7 +9,7 @@ yum install -y net-tools vim wget htop sysstat iotop telnet traceroute bind-util
 
 #Updating system
 echo "Updating Packages -----"
-yum update -yum
+yum update -y
 
 
 # Disable SELinux
